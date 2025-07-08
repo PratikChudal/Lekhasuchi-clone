@@ -8,39 +8,43 @@
 
 </head>
 <body>
-<nav class="bg-white shadow-md">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
-    <div class="flex-shrink-0">
-      <a href="#" class="text-2xl font-bold text-blue-600">LekhaSuchi</a>
-    </div>
+<header class="flex justify-between items-center px-8 py-6">
+    
+       <h1 class="text-3xl font-bold italic">LekhaSuchi</h1>
+        <nav class="space-x-6">
+       <a href="#" class="font-medium hover:text-indigo-600">Orderbook</a>
+       <a href="#" class="font-medium hover:text-indigo-600">Riderbook </a>
+       <a href="#" class="font-medium hover:text-indigo-600">Outletbook</a>
 
-    <div class="hidden md:flex space-x-8">
-      <a href="#" class="text-gray-700 hover:text-blue-600">Home</a>
-      <a href="#" class="text-gray-700 hover:text-blue-600">Features</a>
-      <a href="#" class="text-gray-700 hover:text-blue-600">Pricing</a>
-      <a href="#" class="text-gray-700 hover:text-blue-600">Contact</a>
-    </div>
+            <button class="bg-indigo-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-indigo-700">Login</button>
+       
+    </nav>
+</header>
+<!-- Section1     -->
 
-    <!-- Mobile menu button -->
-    <div class="md:hidden">
-      <button id="menu-btn" class="text-gray-700 focus:outline-none">
-        <!-- Hamburger icon -->
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
-        </svg>
-      </button>
-    </div>
-  </div>
+<section  class="flex flex-col md:flex-row items-center justify-between px-8 md:px-16 py-16">
+    <div class="max-w-xl">
+        <span class="inline-block bg-green-100 text-black-800 px-4 py-1 rounded-full text-sm font-bold mb-4 cursor-pointer " > We are hiring!
+            <span class="underline">
+                View open roles
+            </span>
+        </span>
 
-  <!-- Mobile menu, hidden by default -->
-  <div id="mobile-menu" class="hidden md:hidden bg-white px-4 pt-2 pb-4 space-y-1">
-    <a href="#" class="block text-gray-700 hover:text-blue-600">Home</a>
-    <a href="#" class="block text-gray-700 hover:text-blue-600">Features</a>
-    <a href="#" class="block text-gray-700 hover:text-blue-600">Pricing</a>
-    <a href="#" class="block text-gray-700 hover:text-blue-600">Contact</a>
-  </div>
-</nav>
+        <h1 class="text-4xl md:text-5xl font-extrabold mb-4 leading-tight"> Streamline Your Business with LekhaSuchi</h1>
+        <p class="text-gray-600 text-lg mb-6"> Your All-in-One Accounting and Inventory <br>Management Solution
+      
+        </p>
+ 
+    <div class="flex flex-wrap gap-4">
+            <button class="bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition">Join Free for 30 days</button>
+           <button class="border border-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition"> Book a call</button>
+    </div>
+    </div>
+    <!-- Image on the right   -->
+    <div class="mt-10 md:mt-0 md:ml-12">
+        <img src="additional items/section1 image.png" alt="Loading" class="w-full max-w-md">
+    </div>
+</section>
 
 
 
