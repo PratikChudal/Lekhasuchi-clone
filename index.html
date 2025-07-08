@@ -1,31 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lekhasuchi</title>
-    <link href="./dist/output.css" rel="stylesheet">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lekhasuchi</title>
+  <link href="./dist/output.css" rel="stylesheet" />
 </head>
-<body>
-<header class="flex justify-between items-center px-8 py-6">
-    
-       <h1 class="text-3xl font-bold italic">LekhaSuchi</h1>
-        <nav class="space-x-6">
-       <a href="#" class="font-medium hover:text-indigo-600">Orderbook</a>
-       <a href="#" class="font-medium hover:text-indigo-600">Riderbook </a>
-       <a href="#" class="font-medium hover:text-indigo-600">Outletbook</a>
+<body class="font-sans text-gray-800">
 
-            <button class="bg-indigo-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-indigo-700">Login</button>
-       
+  <!-- Navbar -->
+  <header class="flex justify-between items-center px-8 py-6">
+    <h1 class="text-3xl font-bold italic">LekhaSuchi</h1>
+    <nav class="space-x-6">
+      <a href="#" class="font-medium hover:text-indigo-600">Orderbook</a>
+      <a href="#" class="font-medium hover:text-indigo-600">Riderbook</a>
+      <a href="#" class="font-medium hover:text-indigo-600">Outletbook</a>
+      <button class="bg-indigo-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-indigo-700">Login</button>
     </nav>
-</header>
+  </header>
 
+  <!-- Section 1: Hero -->
+  <section class=" h-screen flex flex-col md:flex-row items-center justify-between px-8 md:px-16 py-16">
+    <!-- Left content -->
+    <div class="max-w-xl">
+      <span class="inline-block bg-green-100 text-green-800 px-4 py-1 rounded-full text-sm font-bold mb-4 cursor-pointer">
+        👋 We are hiring! <span class="underline">View open roles</span> →
+      </span>
+      <h2 class="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">
+        Streamline Your Business with LekhaSuchi
+      </h2>
+      <p class="text-gray-600 text-lg mb-6">
+        Your All-in-One Accounting and Inventory Management Solution
+      </p>
+      <div class="flex flex-wrap gap-4">
+        <button class="bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition">
+          Join Free for 30 Days
+        </button>
+        <button class="border border-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+          📞 Book a call
+        </button>
+      </div>
+    </div>
 
+    <!-- Right image -->
+    <div class="mt-10 md:mt-0 md:ml-12">
+      <img src="additional items/section1 image.png" alt="Illustration" class="w-full max-w-md">
+    </div>
+  </section>
+  
+  <!-- Trust line -->
+   <section class="text-center py-8">
+    <div>
+        <p class="text-lg font-medium">Trusted and loved by <span class="font-bold">20,000+ </span> outlets.
+        </p>
+    </div>
+   </section>
+   <hr>
 
+   <!-- stats -->
+    <section class="flex flex-wrap justify-center text-center py-12 space-x-8">
+        <div>
+            <p class="text-3xl font-bold">Rs. 44,18,14,613</p>
+            <p>Total Orders</p>
+        </div>
 
- <script src="./js/main.js"></script>
-   
+        <div>
+            <p class="text-3xl font-bold"> 1,50,02,875</p>
+            <p>Order in last 30 days</p>
+        </div>
+
+        <div>
+            <p class="text-3xl font-bold">19,598</p>
+            <p> Active Outlets in last quarter</p>
+        </div>
+
+    </section>
+
+  <script src="./js/main.js"></script>
 </body>
 </html>
 
