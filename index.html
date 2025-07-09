@@ -5,130 +5,179 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lekhasuchi</title>
   <link href="./dist/output.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 </head>
 <body class="font-sans text-gray-800">
 
-  <!-- Navbar -->
-  <header class="flex justify-between items-center px-8 py-6">
-    <h1 class="text-3xl font-bold italic">LekhaSuchi</h1>
-    <nav class="space-x-6">
-      <a href="#" class="font-medium hover:text-indigo-600">Orderbook</a>
-      <a href="#" class="font-medium hover:text-indigo-600">Riderbook</a>
-      <a href="#" class="font-medium hover:text-indigo-600">Outletbook</a>
-      <button class="bg-indigo-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-indigo-700">Login</button>
-    </nav>
-  </header>
+ <!-- Navbar -->
+<header class="flex justify-between items-center px-6 md:px-16 py-4  shadow-sm sticky top-0 bg-white z-50">
+  <h1 class="text-4xl md:text-5xl" style="font-family: 'Great Vibes', cursive; color: #000000;">
+    LekhaSuchi
+  </h1>
+  <nav class="space-x-4 md:space-x-6 text-base md:text-lg">
+    <a href="#" class="text-black font-medium hover:text-indigo-600">Orderbook</a>
+    <a href="#" class="text-black font-medium hover:text-indigo-600">Riderbook</a>
+    <a href="#" class="text-black font-medium hover:text-indigo-600">Outletbook</a>
+    <button class="bg-indigo-600 text-white px-4 md:px-5 py-2 rounded-lg font-semibold hover:bg-indigo-700 transition-all">
+      Login
+    </button>
+  </nav>
+</header>
 
-  <!-- Section 1: Hero -->
-  <section class=" h-screen flex flex-col md:flex-row items-center justify-between px-8 md:px-16 py-16">
-    <!-- Left content -->
-    <div class="max-w-xl">
-      <span class="inline-block bg-green-100 text-green-800 px-4 py-1 rounded-full text-sm font-bold mb-4 cursor-pointer">
-        👋 We are hiring! <span class="underline">View open roles</span> →
-      </span>
-      <h2 class="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">
-        Streamline Your Business with LekhaSuchi
-      </h2>
-      <p class="text-gray-600 text-lg mb-6">
-        Your All-in-One Accounting and Inventory Management Solution
-      </p>
-      <div class="flex flex-wrap gap-4">
-        <button class="bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition">
-          Join Free for 30 Days
-        </button>
-        <button class="border border-black px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
-          📞 Book a call
-        </button>
-      </div>
+
+<!-- Hero Section -->
+<section class="relative flex flex-col md:flex-row items-center justify-center h-[100vh] bg-white-50 px-6 py-16  md:px-16">
+  <!-- Left: content -->
+  <div class="w-full md:w-1/2 text-center md:text-left space-y-6">
+    <span class="inline-flex items-center bg-green-100 text-black font-bold py-1 rounded-full text-sm font-semibold">
+      👋 We are hiring! <span class="ml-1"> View open roles →</span>
+    </span>
+    <h2 class="text-5xl md:text-6xl font-extrabold text-black leading-tight">
+      Streamline Your Business with LekhaSuchi
+    </h2>
+    <p class="text-lg md:text-xl text-black max-w-lg mx-auto md:mx-0">
+      Your All‑in‑One Accounting and Inventory <br> Management Solution
+    </p>
+    <div class="flex flex-col sm:flex-row justify-center md:justify-start gap-4 mt-4">
+      <button class="px-6 py-3 bg-indigo-600 text-white rounded-lg text-lg font-medium hover:bg-indigo-700 transition">
+        Join Free for 30 Days
+      </button>
+      <button class="px-6 py-3 border border-gray-800 text-gray-800 rounded-lg text-lg font-medium hover:bg-gray-100 transition">
+        📞 Book a call
+      </button>
     </div>
+  </div>
 
-    <!-- Right image -->
-    <div class="mt-10 md:mt-0 md:ml-12">
-      <img src="additional items/section1 image.png" alt="Illustration" class="w-full max-w-md">
+  <!-- Right image -->
+  <div class="w-full md:w-1/2 flex justify-center md:justify-end">
+    <img src="additional items/section1 image.png"
+         alt="App illustration"
+         class="w-4/5 max-w-lg object-contain">
+  </div>
+</section>
+
+
+  <!-- Trust line -->
+  <section class="text-left  mt-8 py-8">
+    <div>
+      <p class="text-lg font-medium">Trusted and loved by <span class="font-medium">20,000+ </span> outlets.</p>
     </div>
   </section>
-  
-  <!-- Trust line -->
-   <section class="text-center py-8">
+  <hr>
+
+  <!-- Stats Section -->
+  <section class="grid grid-cols-1 md:grid-cols-3 text-center  mt-20 mb-60  bg-white gap-y-8">
     <div>
-        <p class="text-lg font-medium">Trusted and loved by <span class="font-bold">20,000+ </span> outlets.
-        </p>
+      <p class="text-3xl md:text-4xl font-bold text-gray-900">Rs. 44,18,14,613</p>
+      <p class="text-gray-600 text-sm md:text-base">Total Orders</p>
     </div>
-   </section>
-   <hr>
+    <div>
+      <p class="text-3xl md:text-4xl font-bold text-gray-900">1,50,02,875</p>
+      <p class="text-gray-600 text-sm md:text-base">Orders in last 30 days</p>
+    </div>
+    <div>
+      <p class="text-3xl md:text-4xl font-bold text-gray-900">19,598</p>
+      <p class="text-gray-600 text-sm md:text-base">Active Outlets in last quarter</p>
+    </div>
+  </section>
 
-   <!-- stats -->
-    <section class="flex flex-wrap justify-center text-center py-12 space-x-8">
-        <div>
-            <p class="text-3xl font-bold">Rs. 44,18,14,613</p>
-            <p>Total Orders</p>
-        </div>
-
-        <div>
-            <p class="text-3xl font-bold"> 1,50,02,875</p>
-            <p>Order in last 30 days</p>
-        </div>
-
-        <div>
-            <p class="text-3xl font-bold">19,598</p>
-            <p> Active Outlets in last quarter</p>
-        </div>
-
-    </section>
-
-    <!-- Features of LekhaSuchi -->
-<section class="bg-white py-16">
+  <!-- Features Section -->
+<section class="bg-white mb-40 py-28">
   <div class="container mx-auto px-6 md:px-12 flex flex-col lg:flex-row items-center lg:space-x-12">
-    
-    <!-- IMAGE -->
+    <!-- Image -->
     <div class="lg:w-1/2 mb-12 lg:mb-0">
       <img src="additional things/Riderbook-app Image.jpeg" alt="Riderbook App" class="w-full h-auto rounded-xl shadow-md" />
     </div>
 
-    <!-- Content on right -->
+    <!-- Content -->
     <div class="lg:w-1/2">
-      <h2 class="text-3xl md:text-4xl font-bold mb-6">Why Choose LekhaSuchi?</h2>
+      <h2 class="text-4xl md:text-5xl font-extrabold text-[#000000]  font-bold  mb-20">Why Choose LekhaSuchi?</h2>
       <div class="space-y-8">
-        
-        <!-- Feature 1 -->
-        <div class="flex items-start space-x-4">
-          <div class="flex items-center justify-center h-10 w-10 rounded-full bg-blue-600 text-white text-lg font-bold">1</div>
-          <div>
-            <h3 class="text-xl font-semibold">Seamless Order Management</h3>
-            <p class="mt-1 text-gray-600">
-              Our platform seamlessly connects your outlets with manufacturers, streamlining the order process for a hassle-free experience.
-            </p>
-          </div>
-        </div>
 
-        <!-- Feature 2 -->
-        <div class="flex items-start space-x-4">
-          <div class="flex items-center justify-center h-10 w-10 rounded-full bg-blue-600 text-white text-lg font-bold">2</div>
-          <div>
-            <h3 class="text-xl font-semibold">Real-time Inventory Tracking</h3>
-            <p class="mt-1 text-gray-600">
-              Stay in control of your inventory at all times. LekhaSuchi provides real-time updates on stock levels, ensuring you never miss a beat.
-            </p>
-          </div>
-        </div>
+<!-- Feature 1 -->
+<div class="flex items-start space-x-4 mt-8">
+  <div class="flex items-center justify-center h-[40px] w-[40px] rounded-full bg-[#7B61FF] text-white font-bold text-base not-italic leading-none">
+  1
+</div>
 
-        <!-- Feature 3 -->
-        <div class="flex items-start space-x-4">
-          <div class="flex items-center justify-center h-10 w-10 rounded-full bg-blue-600 text-white text-lg font-bold">3</div>
-          <div>
-            <h3 class="text-xl font-semibold">Effortless Accounting</h3>
-            <p class="mt-1 text-gray-600">
-              Simplify your accounting tasks with LekhaSuchi. Generate invoices, track expenses, and manage finances with ease.
-            </p>
-          </div>
-        </div>
+  <div class="px-16">
+    <h3 class="text-xl font-bold text-[#000000]">Seamless Order Management</h3>
+    <p class="mt-1 text-black-900">
+      Our platform seamlessly connects your <br>outlets with manufacturers, streamlining <br>the order process for a hassle-free <br>experience.
+    </p>
+  </div>
+</div>
+
+<!-- Feature 2 -->
+<div class="flex items-start space-x-4 mt-8">
+ <div class="flex items-center justify-center h-[40px] w-[40px] rounded-full bg-[#7B61FF] text-white font-bold text-base not-italic leading-none">
+  2
+</div>
+
+  <div class=" px-16">
+    <h3 class="text-xl font-bold text-[#000000]">Real-time Inventory Tracking</h3>
+    <p class="mt-1 text-black">
+      Stay in control of your inventory at all  <br>times. LekhaSuchi provides real-time <br>updates on stock levels, ensuring you never <br> miss a beat.
+    </p>
+  </div>
+</div>
+
+<!-- Feature 3 -->
+<div class="flex items-start space-x-4 mt-8">
+ <div class="flex items-center justify-center h-[40px] w-[40px] rounded-full bg-[#7B61FF] text-white font-bold text-base not-italic leading-none">
+  3
+</div>
+
+  <div class="px-16">
+    <h3 class="text-xl font-bold text-[#000000]">Effortless Accounting</h3>
+    <p class="mt-1 text-black">
+      Simplify your accounting tasks with <br>LekhaSuchi. Generate invoices, track <br>expenses, and manage finances with ease.
+    </p>
+  </div>
+</div>
+
+
+
 
       </div>
     </div>
   </div>
 </section>
 
-   
+
+  <!-- Footer -->
+  <footer class="bg-white text-center py-100 px-4">
+    <!-- Logo/Text -->
+    <h2 class="text-4xl md:text-5xl font-bold italic mb-4" style="font-family: 'Great Vibes', cursive;">
+      LekhaSuchi
+    </h2>
+
+    <!-- Mission Statement -->
+    <p class="text-base md:text-lg text-gray-700 mb-1">
+      At LekhaSuchi, we are dedicated to simplifying the way businesses manage their accounting, inventory, and operations.
+    </p>
+    <p class="text-base md:text-lg text-gray-700 mb-6">
+      Our mission is to empower businesses with efficient solutions that drive growth and success.
+    </p>
+
+    <!-- Menu Links -->
+    <div class="flex justify-center flex-wrap gap-6 text-lg font-medium text-gray-800 mb-6">
+      <a href="#" class="hover:text-indigo-600">OrderBook</a>
+      <a href="#" class="hover:text-indigo-600">RiderBook</a>
+      <a href="#" class="hover:text-indigo-600">StoreBook</a>
+      <a href="#" class="hover:text-indigo-600">Outlet App</a>
+      <a href="#" class="hover:text-indigo-600">Consumer App</a>
+    </div>
+
+    <!-- Copyright -->
+    <p class="text-sm text-gray-500">© 2025 LekhaSuchi™. All Rights Reserved.</p>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
+
+
 
 
 
@@ -136,7 +185,5 @@
 
     
 
-  <script src="./js/main.js"></script>
-</body>
-</html>
+ 
 
